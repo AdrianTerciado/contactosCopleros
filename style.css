@@ -1,0 +1,60 @@
+:root{
+    --gunmetal: #122C34;
+    --indigoDye: #224870;
+    --marianBlue: #2A4494;    
+    --pictionBlue: #4EA5D9;    
+    --robinEggBlue: #44CFCB;
+    --darkGrey: #343a40;
+    --lightGrey: #adb5bd;
+
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--pictionBlue);
+
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: block;
+    /*flex-direction: column; No me wrapea, se queda siempre en columna*/
+    flex-wrap: wrap;
+    place-content: center;
+    width: 80%;
+    align-items: center;
+    margin: 20px auto auto auto;
+    height: 100%;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    align-items: center;
+}
+
+h4{
+    margin: 5px 0px;
+}
+
+address{
+    font-style: normal;
+    color: var(--lightGrey);
+}
+
+.artistInfo{
+    margin-left: 20px;
+    margin-right: 60px;
+    color: var(--darkGrey);
+}
